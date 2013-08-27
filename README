@@ -1,3 +1,17 @@
 Various lock-based and lock-free algorithms tested for multiple readers and writers scenarios.
 
 The purpose is to show the performance of different approaches.
+
+Run with maven:
+
+One reader, One writer:
+> mvn -P 1r1w
+
+Two readers, One writer:
+> mvn -P 2r1w
+
+Three readers, One writer:
+> mvn -P 3r1w
+
+Two reaers, Two writers
+> mvn -P 2r2w
