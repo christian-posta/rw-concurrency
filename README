@@ -13,5 +13,5 @@ Two readers, One writer:
 Three readers, One writer:
 > mvn -P 3r1w
 
-Two reaers, Two writers
+Two readers, Two writers
 > mvn -P 2r2w
